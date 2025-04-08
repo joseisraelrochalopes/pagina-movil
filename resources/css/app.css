@@ -1,0 +1,13 @@
+@import 'Bootstrap';
+.card-img {
+    height: 450px; /* Fija la altura en 450px */
+    object-fit: cover; /* Mantiene la proporción y cubre el espacio */
+}
+
+.carousel-inner img {
+    height: 400px; /* Ajusta la altura según lo necesites */
+    object-fit: cover; /* Hace que la imagen llene el espacio sin deformarse */
+}
+
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
